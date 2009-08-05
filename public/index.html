@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Sideloader</title>
+    <link rel="stylesheet" href="/stylesheets/main.css"/>
+    <link rel="shortcut icon" href="/images/favicon.png" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="truck">&nbsp;</div>
+    <h1>Sideloader</h1>
+
+    <form>
+      <label for="url_field">File to sideload:</label>
+      <input type="text" id="url_field"/>
+      <button id="submit">Sideload</button>
+
+      <div id="or">Or,</div>
+      <div class="url_example">http://sideloader.com/create/<em>http://yoursite.com/yourfile.mp4</em></div>
+    </form>
+
+    <script>
+      $(document).ready(function() {
+        $('form').submit(function() {
+          var url = $('#url_field').val();
+          window.location = "/create/"+url
+          return false;
+        });
+      });
+    </script>
+
+  </body>
+</html>

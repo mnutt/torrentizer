@@ -1,0 +1,3 @@
+[submodule "vendor/mktorrent"]
+	path = vendor/mktorrent
+	url = git://github.com/esmil/mktorrent.git

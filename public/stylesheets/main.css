@@ -1,0 +1,67 @@
+body {
+  background: #141414 url(/images/background.jpg) top center no-repeat;
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+#truck {
+  width: 252px;
+  height: 232px;
+  background: url(/images/truck.png) top left no-repeat;
+  margin: 20px auto;
+}
+
+h1 {
+  width: 587px;
+  height: 102px;
+  text-indent: -10000px;
+  background: url(/images/sideloader.png) top left no-repeat;
+  margin: 0 auto 70px auto;
+}
+
+form {
+  margin: auto;
+  width: 481px;
+}
+
+form label {
+  display: block;
+  float: left;
+}
+
+form input#url_field {
+  font-size: 24px;
+  width: 481px;
+  background-color: #131313;
+  color: #FFF;
+  border: 4px solid #000;
+}
+
+form button#submit {
+  display: block;
+  margin-right: -30px;
+  float: right;
+  width: 110px;
+  height: 46px;
+  text-indent: -10000px;
+  background: url(/images/submit.png) top left no-repeat;
+  border: 0;
+}
+
+#or {
+  margin: 60px 0 10px 0;
+  float: left;
+  width: 30px;
+  height: 21px;
+  text-indent: -10000px;
+  background: url(/images/or.png) top left no-repeat;
+}
+
+div.url_example {
+  margin: auto;
+  font-size: 1.1em;
+  padding: 7px 5px;
+  clear: both;
+  background: #0b3028;
+}
